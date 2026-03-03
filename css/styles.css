@@ -1,0 +1,133 @@
+/* Color Palette
+# - #b7e0bb
+# - #85B88B
+# - #4F8E55
+# - #0D3911
+*/
+
+/* Global styles 
+------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #0D3911;
+    color: #0D3911;
+    font:'Saira', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 2.5em;
+    font: 'Saira', sans-serif;
+}
+h2{
+    font-size: 1.75em;
+    margin-top: 0;
+    font: 'Saira', sans-serif;
+}
+h3{
+    font-size: 1.15em;
+}
+h3, h4, h5, h6 {
+    color: #000000;
+    font: 'Rubik', sans-serif;
+}
+p{
+    font: 'Rubik', sans-serif;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header{
+    background: #b7e0bb;
+    font: 500 1.5em 'Saira', sans-serif;
+}
+
+.profile-img{
+    /* width: 300px; */
+
+    border-radius: 50%;
+    /* float: left;
+
+    margin-right: 30px; */
+}
+header h1, header h2 {
+    margin: 0;
+}
+footer{
+    background: #b7e0bb;
+    font: 400 1em 'Saira', sans-serif;
+    text-align: center;
+}
+
+footer p {
+    font-size: small;
+}
+
+.contact-info {
+    padding: 10px;
+    display: inline-block;
+}
+a {
+	color: rgb(50, 143, 230);
+}
+a:hover {
+	color: rgb(40, 106, 168);
+}
+/* Work Experience
+------------------------------------*/
+.projects{
+    background: #85B88B;
+    font: 300 1.2em 'Rubik', sans-serif;
+    color: #fff;
+}
+.projects h2 {
+    color: #fff;
+}
+
+
+.projects h3 {
+    color: #fff;
+}
+
+/* Education
+------------------------------------*/
+.education{
+    background: #4F8E55;
+    color: #fff;
+    font: 300 1.2em 'Rubik', sans-serif;
+}
+
+.education h2 {
+    color: #fff;
+}
+
+
+.education h3 {
+    color: #fff;
+}
