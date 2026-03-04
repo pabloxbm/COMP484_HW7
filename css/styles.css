@@ -79,6 +79,9 @@ header{
 header h1, header h2 {
     margin: 0;
 }
+header p {
+    font-size: smaller;
+}
 footer{
     background: #b7e0bb;
     font: 400 1em 'Saira', sans-serif;
